@@ -1,0 +1,104 @@
+/* Reset Básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 1. Header (Topo) */
+.header {
+  background-color: #d1c4b4; /* Cor bege/cinza topo */
+  padding: 16px 24px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #2d2d2d;
+  font-size: 1.1rem;
+}
+
+/* 2. Seção Hero (Roxo / Lilás) */
+.hero {
+  background-color: #7b7899; /* Tom de azul/roxo */
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+  opacity: 0.95;
+}
+
+/* Botão Laranja */
+.btn {
+  background-color: #ff6b35; /* Laranja vibrante */
+  color: #ffffff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #e55a2b;
+}
+
+/* 3. Seção do Meio (Vermelho / Salmão) */
+.features-section {
+  background-color: #e07a7a; /* Cor rosa salmão */
+  padding: 30px 20px 50px;
+  text-align: center;
+}
+
+.features-section h2 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+/* Container Flexbox para alinhar os 3 cards lado a lado */
+.cards-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* Permite quebrar linha se a tela for pequena */
+}
+
+/* Cards Brancos com Fundo Destacado */
+.card {
+  background-color: #ffffff; /* Fundo BRANCO para criar os blocos */
+  border-radius: 4px;
+  padding: 24px 18px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.card h3 {
+  color: #2d2d2d;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card p {
+  color: #555555;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
