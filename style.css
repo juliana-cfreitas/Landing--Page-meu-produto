@@ -1,4 +1,3 @@
-/* Reset Básico */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +5,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 1. Cabeçalho (Topo Branco) */
+
 .header {
   background-color: #ffffff;
   padding: 16px 30px;
@@ -17,13 +16,13 @@
 
 .logo {
   font-weight: bold;
-  color: #1e40af; /* Azul para o texto MeuProduto */
+  color: #1e40af; 
   font-size: 1.2rem;
 }
 
-/* 2. Seção Hero (Azul Vibrante) */
+
 .hero {
-  background-color: #2557ca; /* Azul da foto */
+  background-color: #2557ca; 
   color: #ffffff;
   text-align: center;
   padding: 70px 20px;
@@ -41,9 +40,9 @@
   opacity: 0.95;
 }
 
-/* Botão Rosa Salmão / Coral */
+
 .btn {
-  background-color: #ff595e; /* Cor exata do botão */
+  background-color: #ff595e; 
   color: #ffffff;
   border: none;
   padding: 12px 28px;
@@ -58,21 +57,21 @@
   opacity: 0.9;
 }
 
-/* 3. Seção do Meio (Vermelho Vivo) */
+
 .features-section {
-  background-color: #ff0000; /* Vermelho puro da imagem */
+  background-color: #ff0000; 
   padding: 40px 20px 60px;
   text-align: center;
 }
 
 .features-section h2 {
-  color: #000000; /* Texto do título escuro */
+  color: #000000; 
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
-/* Container dos Cards */
+
 .cards-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -82,7 +81,7 @@
   flex-wrap: wrap;
 }
 
-/* Cards Brancos com Cantos Arredondados */
+
 .card {
   background-color: #ffffff;
   border-radius: 8px;
@@ -106,9 +105,9 @@
   line-height: 1.4;
 }
 
-/* 4. Rodapé (Preto) */
+
 .footer {
-  background-color: #111111; /* Fundo preto */
+  background-color: #111111; 
   color: #6b7280;
   text-align: center;
   padding: 20px;
