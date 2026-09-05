@@ -6,24 +6,27 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 1. Header (Topo) */
+/* 1. Cabeçalho (Topo Branco) */
 .header {
-  background-color: #d1c4b4; /* Cor bege/cinza topo */
-  padding: 16px 24px;
+  background-color: #ffffff;
+  padding: 16px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   font-weight: bold;
-  color: #2d2d2d;
-  font-size: 1.1rem;
+  color: #1e40af; /* Azul para o texto MeuProduto */
+  font-size: 1.2rem;
 }
 
-/* 2. Seção Hero (Roxo / Lilás) */
+/* 2. Seção Hero (Azul Vibrante) */
 .hero {
-  background-color: #7b7899; /* Tom de azul/roxo */
+  background-color: #2557ca; /* Azul da foto */
   color: #ffffff;
   text-align: center;
-  padding: 60px 20px;
+  padding: 70px 20px;
 }
 
 .hero h1 {
@@ -38,9 +41,9 @@
   opacity: 0.95;
 }
 
-/* Botão Laranja */
+/* Botão Rosa Salmão / Coral */
 .btn {
-  background-color: #ff6b35; /* Laranja vibrante */
+  background-color: #ff595e; /* Cor exata do botão */
   color: #ffffff;
   border: none;
   padding: 12px 28px;
@@ -48,57 +51,66 @@
   font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: opacity 0.2s;
 }
 
 .btn:hover {
-  background-color: #e55a2b;
+  opacity: 0.9;
 }
 
-/* 3. Seção do Meio (Vermelho / Salmão) */
+/* 3. Seção do Meio (Vermelho Vivo) */
 .features-section {
-  background-color: #e07a7a; /* Cor rosa salmão */
-  padding: 30px 20px 50px;
+  background-color: #ff0000; /* Vermelho puro da imagem */
+  padding: 40px 20px 60px;
   text-align: center;
 }
 
 .features-section h2 {
-  color: #ffffff;
+  color: #000000; /* Texto do título escuro */
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: bold;
   margin-bottom: 30px;
 }
 
-/* Container Flexbox para alinhar os 3 cards lado a lado */
+/* Container dos Cards */
 .cards-container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   gap: 20px;
   justify-content: center;
-  flex-wrap: wrap; /* Permite quebrar linha se a tela for pequena */
+  flex-wrap: wrap;
 }
 
-/* Cards Brancos com Fundo Destacado */
+/* Cards Brancos com Cantos Arredondados */
 .card {
-  background-color: #ffffff; /* Fundo BRANCO para criar os blocos */
-  border-radius: 4px;
-  padding: 24px 18px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px 20px;
   flex: 1;
   min-width: 250px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   text-align: center;
 }
 
 .card h3 {
-  color: #2d2d2d;
-  font-size: 1rem;
+  color: #000000;
+  font-size: 0.95rem;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 .card p {
-  color: #555555;
-  font-size: 0.88rem;
+  color: #4b5563;
+  font-size: 0.85rem;
   line-height: 1.4;
+}
+
+/* 4. Rodapé (Preto) */
+.footer {
+  background-color: #111111; /* Fundo preto */
+  color: #6b7280;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
 }
